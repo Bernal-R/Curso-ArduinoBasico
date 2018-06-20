@@ -30,13 +30,53 @@ Códigos de ejemplo básicos para Arduino, elaborados por Bernal Rojas.
 * array: Almacena varias variables. Ej: {4,5,6,7}
 
 ### Estructuras de Control
-
-
-
+* Condicional If: 
+```
+ if(condition) {
+   //statements
+} else {
+  //statements
+}
+```
+* Switch Case: Para comparaciónes múltiples de una variable:
+```
+switch (var) {
+  case label1:
+    // statements
+    break;
+  case label2:
+    // statements
+    break;
+  default:
+    // statements
+}
+```
+* While: Búcle condicionado:
+```
+while(condition){
+  // statement(s)
+}
+```
+* For: Bucle ligado a un contador:
+```
+for (initialization; condition; increment) {
+	//statement(s);
+}
+```
 ## Arduino IDE
 ### Estructuras
-* Set Up:
-* Loop:
+* Set Up: Se ejecuta al inicio del código. Aquí inicilizamos todo lo que vamos a usar.
+* Loop: Es un ciclo infinito. Nuestra función principal.
 
 ### Librerías
-* Instalar librerias
+* Instalación de librerias (Ejercicio práctico)
+
+### Alguna funciones de uso general
+#### Digital I/O
+* digitalRead() 
+* digitalWrite() 
+* pinMode() 
+
+#### Analog I/O
+* analogRead() 
+* analogWrite() 
