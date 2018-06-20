@@ -4,19 +4,19 @@ Códigos de ejemplo básicos para Arduino, elaborados por Bernal Rojas.
 ### Documentación y Referencias:
 * Arduino reference: https://www.arduino.cc/reference/en/
 
-## Electrónica:
+## ·Electrónica:
 ### Ley de ohm:
 * Simulador: https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_es.html
 
 ### Señales 
-* Señal Digital: Dos estados(0-1)
+* Señal Digital: Dos estados (0-1)
 * Señal Analógica: Varia en el tiempo
 
 ### Circuitos Básicos para Arduino
 * Sensores 
 * Actuadores
 
-## Software 
+## ·Software 
 ### Tipos de Variables
 * int: Tipo entero. Ej: 2.
 * float: Número con coma flotante. Ej: 3.14.
@@ -63,7 +63,7 @@ for (initialization; condition; increment) {
 	//statement(s);
 }
 ```
-## Arduino IDE
+## ·Arduino IDE
 ### Estructuras
 * Set Up: Se ejecuta al inicio del código. Aquí inicilizamos todo lo que vamos a usar.
 * Loop: Es un ciclo infinito. Nuestra función principal.
