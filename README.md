@@ -80,3 +80,6 @@ for (initialization; condition; increment) {
 #### Analog I/O
 * analogRead() 
 * analogWrite() 
+
+### Sensores y librerias
+* LCD: http://openhardware.gridshield.net/home/lcd-keypad-shield-test
