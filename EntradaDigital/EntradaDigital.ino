@@ -4,6 +4,7 @@ int pinEntrada = 2; //Declaramos variable.
 void setup() {
   pinMode(pinSalida, OUTPUT);// Definimos pin 13 como una salida.
   pinMode(pinEntrada, INPUT_PULLUP); //Definimos el pin 2 como entrada.
+}
 
   void loop() {
 
